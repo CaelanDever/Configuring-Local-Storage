@@ -158,29 +158,4 @@ sudo ls -l /mnt/my_mount_point
 
 <img width="387" alt="sudo" src="https://github.com/user-attachments/assets/c35bd719-2d4d-4669-8583-3b557ccb0adf">
 
-
-# 10. Document the Process
-Document the entire process as follows:
-
-Virtual Hard Disk Addition:
-
-Describe the steps and tools used in the virtualization platform.
-Partitioning:
-
-Command used: fdisk /dev/sdb and the steps taken.
-File System Creation:
-
-Command used: mkfs.ext4 /dev/sdb1.
-LVM Setup:
-
-Commands and steps to create PV, VG, LV, and file system.
-Optimization:
-
-Disk cache settings and performance configurations.
-Testing:
-
-Commands and procedures used for testing storage setup.
-Monitoring:
-
-Tools and commands used for monitoring disk usage and performance.
 By following these steps, you will have successfully added and configured a new virtual hard disk on your CentOS 8 VM, implemented LVM for efficient storage management, and optimized the storage setup for better performance.
